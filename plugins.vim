@@ -5,7 +5,7 @@ Plug 'lervag/vimtex'
 
 " snippets
 Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+"Plug 'honza/vim-snippets'
 
 "Syntax
 Plug 'sheerun/vim-polyglot'
