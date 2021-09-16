@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/rubal/.vim'
+let g:netrw_dirhist_0='/home/rubal/.vim/plugged/vim-snippets/UltiSnips'
+let g:netrw_dirhist_9='/home/rubal/Documents/Notas/semestre6/analisis2'
+let g:netrw_dirhist_8='/home/rubal/Documents/Notas/semestre6'
+let g:netrw_dirhist_7='/home/rubal/Documents/Notas'
+let g:netrw_dirhist_6='/home/rubal/Documents/Notas/semestre6/analisis2'
+let g:netrw_dirhist_5='/home/rubal/.config/qutebrowser'
+let g:netrw_dirhist_4='/home/rubal/.config'
+let g:netrw_dirhist_3='/home/rubal/.config/qtile'
+let g:netrw_dirhist_2='/home/rubal/.config/inkscape-shortcut-manager/styles'
