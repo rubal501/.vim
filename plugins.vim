@@ -23,8 +23,8 @@ Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'scrooloose/nerdtree'
 
 "Typing
-Plug 'jiangmiao/auto-pairs'
-Plug 'alvan/vim-closetag'
+Plug 'jiangmiao/auto-pairs', { 'for': ['python'] }
+Plug 'alvan/vim-closetag', { 'for': ['python'] }
 Plug 'tpope/vim-surround'
 
 "tmux
@@ -40,7 +40,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'mhinz/vim-signify'
 Plug 'scrooloose/nerdcommenter'
-Plug 'yggdroot/indentline'
+Plug 'yggdroot/indentline' , { 'for': ['python'] }
 Plug 'tpope/vim-repeat'
 
 

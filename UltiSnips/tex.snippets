@@ -543,15 +543,18 @@ snippet \\\ "setminus" iA
 \setminus
 endsnippet
 
+context "math()"
 snippet >> ">>" iA
 \gg
 endsnippet
 
+context "math()"
 snippet << "<<" iA
 \ll
 endsnippet
 
 
+context "math()"
 snippet ~~ "~" iA
 \sim 
 endsnippet
@@ -581,7 +584,7 @@ snippet inn "in " iA
 endsnippet
 
 snippet NN "n" iA
-\N
+\mathbb{N}
 endsnippet
 
 snippet Nn "cap" iA
@@ -601,19 +604,19 @@ snippet nnn "bigcap" iA
 endsnippet
 
 snippet OO "emptyset" iA
-\O
+\phi
 endsnippet
 
 snippet RR "real" iA
-\R
+mathbb{R}
 endsnippet
 
 snippet QQ "Q" iA
-\Q
+\mathbb{Q}
 endsnippet
 
 snippet ZZ "Z" iA
-\Z
+\mathbb{Z}
 endsnippet
 
 snippet <! "normal" iA
@@ -672,15 +675,6 @@ snippet eqal "aligned equation" iA
 \end{equation*}
 endsnippet 
 
-context "math()"
-snippet txt "texto" iA
-\text{ $1} $2 
-endsnippet
-
-snippet choro " Choro" iA
- Por un teorema visto en clase: 
-endsnippet
-
 snippet nejer "nuevo ejercici" b
 %%%%%%%%%%%%%%%Ejercicio $1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -693,11 +687,6 @@ endsnippet
 context "math()"
 snippet ip "producto interior abstracto" iA
 \langle $1, $2 \rangle $0
-endsnippet
-
-context "math()"
-snippet la "lambda" iA
-\lambda
 endsnippet
 
 
@@ -729,10 +718,6 @@ snippet "([a-zA-Z])hat" "hat" riA
 \hat{`!p snip.rv=match.group(1)`}
 endsnippet
 
-snippet letw "let omega" iA
-Let $\Omega \subset \C$ be open.
-endsnippet
-
 
 snippet HH "H" iA
 \mathbb{H}
@@ -741,5 +726,15 @@ endsnippet
 snippet DD "D" iA
 \mathbb{D}
 endsnippet
+
+snippet tbf "negritas" iA
+\textbf{$1}$0
+endsnippet
+
+context "math()"
+snippet suc "sucession" iA
+\\{$1_{$2} \\}_{$2 = 1}^{\infty}$0
+endsnippet
+
 
 # vim:ft=snippets

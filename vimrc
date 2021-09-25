@@ -27,3 +27,8 @@ so ~/.vim/maps.vim
 highlight normal ctermbg=None
 set laststatus=2
 set noshowmode
+
+filetype plugin indent on
+
+"Allows me to use the Ultisnips of the current course
+set rtp+=~/current_course
