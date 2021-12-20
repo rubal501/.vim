@@ -15,6 +15,9 @@ set shiftwidth=4
 set hidden		" Hide buffers when they are abandoned
 set relativenumber
 set cursorline
+set nowrap
+setlocal spelllang=es
+
 
 
 so ~/.vim/plugins.vim
