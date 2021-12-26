@@ -44,9 +44,16 @@ Plug 'yggdroot/indentline' , { 'for': ['python'] }
 Plug 'tpope/vim-repeat'
 
 
+"Plugs to test
+"Plug 'xolox/vim-notes'
+Plug 'mhinz/vim-startify'
+
 
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-
+"
+" Experimental plugins
+"
+Plug 'jceb/vim-orgmode'
 call plug#end()
 
 
