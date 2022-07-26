@@ -42,6 +42,7 @@ Plug 'mhinz/vim-signify'
 Plug 'scrooloose/nerdcommenter'
 Plug 'yggdroot/indentline' , { 'for': ['python'] }
 Plug 'tpope/vim-repeat'
+Plug 'davidhalter/jedi-vim'
 
 
 "Plugs to test

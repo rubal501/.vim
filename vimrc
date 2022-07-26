@@ -1,7 +1,4 @@
-
-runtime! debian.vim
-
-set clipboard=unnamed
+runtime! debian.vim set clipboard=unnamed
 syntax on
 set encoding=utf-8
 set showcmd		" Show (partial) command in status line.
@@ -18,6 +15,12 @@ set cursorline
 set nowrap
 setlocal spelllang=es
 
+"fold related settings
+set foldmethod=indent
+set nofoldenable
+
+"testing some features
+set wildmenu
 
 
 so ~/.vim/plugins.vim
@@ -31,7 +34,9 @@ highlight normal ctermbg=None
 set laststatus=2
 set noshowmode
 
-filetype plugin indent on
+filetype on
+filetype plugin on
+filetype indent on
 
 "Allows me to use the Ultisnips of the current course
 set rtp+=~/current_course
